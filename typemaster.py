@@ -1,8 +1,8 @@
 import random
 
 words = ["bug","test","virus"]
+count = len(words)
 right = 0
-wrong = 0
 
 while words:
     random_choice = random.choice(words)
@@ -16,3 +16,5 @@ while words:
         wrong += 1
     
     words.remove(random_choice)
+
+print(f"Accuracy: {right} out of {count}.")
