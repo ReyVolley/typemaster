@@ -13,7 +13,6 @@ while words:
         right += 1
     else:
         print("wrong")
-        wrong += 1
     
     words.remove(random_choice)
 
