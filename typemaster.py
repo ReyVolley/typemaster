@@ -1,6 +1,10 @@
 print("test")
+import random
 
 words = ["bug","test","virus"]
-copy = words.copy()
-while copy:
+while words:
     guess = input("Enter a word: ")
+    if(guess == random.choice(words)):
+        print("correct!")
+    else:
+        print("wrong")
