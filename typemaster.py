@@ -1,6 +1,6 @@
 import random
 
-words = ["bug","test","virus"]
+words = ["mountain","nature", "guitar","music","ocean","water", "canvas","art","telescope","astronomy", "piano","instrument""bicycle","transportation","chef"]
 count = len(words)
 right = 0
 
